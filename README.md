@@ -2,10 +2,6 @@
 
 see https://github.com/renovatebot/renovate/issues/14828
 
-This fails when using self-hosted renovate with a *GLOBAL* config of:
+The necessary global config for a self-hosted setup to reproduce can be found in `runner-config/config.json`
 
-```json
-{
-  "extends": ["github>hojerst/renovate-issue-14848"]
-}
-```
+Note: it works completely fine, when this `extends` block is used inside an actual repository.
