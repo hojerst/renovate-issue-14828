@@ -1,5 +1,0 @@
-{
-    "extends": [
-        "hojerst/renovate-issue-14828"
-    ]
-}
